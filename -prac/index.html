@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .background-container {
+            width: 768px;
+            height: 872px;
+            /* Adjust the height as needed */
+            background-image: url('devore.png');
+            /* Specify the path to your image */
+            background-size: cover;
+            /* Ensure the image covers the entire container */
+            background-position: center;
+            /* Center the image */
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body class="container mx-auto px-[50px] ">
+    <!-- navbar -->
+    <!-- <div class="background-container"></div> -->
+    <nav class="flex justify-between items-center  mt-[56px]">
+        <div class="left">
+            <img src="Logo.png" alt="logo" class="w-[122px] h-[34px]" />
+
+        </div>
+        <div class="righ flex gap-[58px]">
+            <h1 class="font-sans text-base  font-semibold ">Destinations</h1>
+            <h1 class="font-sans text-base  font-semibold">Hotetls</h1>
+            <h1 class="font-sans text-base  font-semibold">Flights</h1>
+            <h1 class="font-sans text-base  font-semibold">Booking</h1>
+            <h1 class="font-sans text-base  font-semibold">Login</h1>
+            <button class=" border-2 text-black rounded-md px-2 py-[4px] border-black "> Sign Up</button>
+            <h1 class="font-sans text-base  font-semibold">EN</h1>
+        </div>
+    </nav>
+
+    <!-- banner -->
+
+    <div class="maincontainer mt-[53px] flex flex-row  ">
+        <div class="left mt-[112px] ">
+
+            <div class="title min-w-[425px]">
+                <h3 class="text-[20px] uppercase font-bold text-[#DF6951]">Best Destinations around the world</h3>
+            </div>
+            <div class="content mt-6   w-3/6">
+                <h1 class="text-5xl font-extrabold ">Travel, enjoy
+                    and live a new
+                    and full life</h1>
+            </div>
+            <div class="subcontent mt-8 w-3/6">
+                <p class="text-base text-[#5E6282]">Built Wicket longer admire do barton vanity itself do in it.
+                    Preferred to sportsmen it engrossed
+                    listening. Park gate sell they west hard for the.</p>
+            </div>
+            <div class="button__container   mt-8 flex gap-[45px]">
+                <button class="bg-[#F1A501] px-7 py-4 rounded-md  text-white font-semibold text-base">Find Out
+                    More</button>
+                <button class="px-7 py-4 rounded-md  text-black font-semibold border-2 border-gray-400 text-base">Play
+                    Demo</button>
+            </div>
+        </div>
+        <div class="right  -ml-96">
+            <div class="image_container ">
+                <img src="travel.png" alt="" width="794px" height="700px" />
+            </div>
+        </div>
+    </div>
+
+
+    <!-- services -->
+
+    <div class="services__container mt-[79px] mb-10">
+        <div class="contents items-center text-center">
+
+            <div class="title">
+                <p class="text-[18px] uppercase text-gray-400">Category</p>
+            </div>
+            <div class="subtitle mt-[10px]">
+                <h1 class="text-[50px] font-semibold">We Offer Best Services</h1>
+            </div>
+        </div>
+        <div class="cards__container flex gap-[40px] mt-[68px] ">
+            <div class="cards border-2 w-auto h-auto border-black  bg-amber-100  rounded-tl-[75px] rounded-br-[75px]">
+                <div class="image__container flex py-2 items-center justify-center ">
+
+                    <img src="1.png" alt="" width="167px" height="152px" />
+                </div>
+                <div class="contents px-8">
+                    <h1 class=" text-center font-bold text-[20px]">Calculated Weather </h1>
+                    <p class="px-8 mt-4 pb-12 text-base">Built Wicket longer admire do barton vanity itself do in it.</p>
+                </div>
+            </div>
+
+            <div class="cards border-2 w-auto h-auto border-black  bg-teal-50  rounded-tl-[75px] rounded-br-[75px]">
+                <div class="image__container flex py-2 items-center justify-center ">
+
+                    <img src="2.png" alt="" width="167px" height="152px" />
+                </div>
+                <div class="contents px-8">
+                    <h1 class=" text-center font-bold text-[20px]">Best Flights </h1>
+                    <p class="px-8 mt-4 pb-12 text-base">Engrossed listening. Park gate sell they west hard for the.</p>
+                </div>
+            </div>
+            <div class="cards border-2 w-auto h-auto border-black  bg-pink-100  rounded-tl-[75px] rounded-br-[75px]">
+                <div class="image__container flex py-2 items-center justify-center ">
+
+                    <img src="2.png" alt="" width="167px" height="152px" />
+                </div>
+                <div class="contents px-8">
+                    <h1 class=" text-center font-bold text-[20px]">Local Events </h1>
+                    <p class="px-8 mt-4 pb-12 text-base">Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
+                </div>
+            </div>
+            <div class="cards border-2 w-auto h-auto border-black  bg-purple-200 rounded-tl-[75px] rounded-br-[75px]">
+                <div class="image__container flex py-2 items-center justify-center ">
+
+                    <img src="2.png" alt="" width="167px" height="152px" />
+                </div>
+                <div class="contents px-8">
+                    <h1 class=" text-center font-bold text-[20px]">Customization</h1>
+                    <p class="px-8 mt-4 pb-12 text-base">We deliver outsourced
+                        aviation services for
+                        military customers</p>
+                </div>
+            </div>
+            
+
+            
+            
+
+        </div>
+    </div>
+
+
+    <!-- top Destinations -->
+
+
+    <!-- bookings  -->
+
+
+    <div class="bookings">
+        <div class="title">
+            <p>Easy and Fast</p>
+        </div>
+        <div class="bookings__container">
+            <div class="bookings__left">
+
+            </div>
+            <div class="bookings__right">
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
